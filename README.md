@@ -17,7 +17,14 @@ A simple and elegant **music player** built using **HTML, CSS, and JavaScript**.
 - ✅ Smooth audio playback  
 
 ---
+## 👩‍💻 Technologies Used  
 
+- **HTML5** - Structure of the music player  
+- **CSS3** - Styling and layout design  
+- **JavaScript (ES6)** - Functionality and dynamic interactions  
+- **JSON** - Storing album and playlist metadata  
+
+---
 ## 📚 Project Structure  
 
 ```
