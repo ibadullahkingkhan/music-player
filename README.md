@@ -1,19 +1,26 @@
 # music-player
 A simple and elegant music player built with HTML, CSS, and JavaScript. It dynamically loads albums and playlists using info.json, providing a seamless and organized listening experience. Features a clean UI, easy navigation, and smooth playback. 🎶✨
 
-🎵 Music Player
+ # 🎵 Music Player  
 
-A simple and elegant music player built using HTML, CSS, and JavaScript. This player dynamically loads albums and playlists using info.json, providing a seamless and organized listening experience.
-🚀 Features
+A simple and elegant **music player** built using **HTML, CSS, and JavaScript**. This player dynamically loads albums and playlists using `info.json`, providing a seamless and organized listening experience.  
 
-✅ Play, Pause, Next, and Previous song controls
-✅ Dynamic album and playlist loading from info.json
-✅ Album cover images for each playlist (image.jpg)
-✅ Responsive and user-friendly UI
-✅ Displays album art and song details
-✅ Smooth audio playback
-📂 Project Structure
+---
 
+## 🚀 Features  
+
+- ✅ Play, Pause, Next, and Previous song controls  
+- ✅ Dynamic album and playlist loading from `info.json`  
+- ✅ **Album cover images** for each playlist (`image.jpg`)  
+- ✅ Responsive and user-friendly UI  
+- ✅ Displays album art and song details  
+- ✅ Smooth audio playback  
+
+---
+
+## 📚 Project Structure  
+
+```
 Music-Player/
 │── index.html         # Main HTML file  
 │── script.js          # JavaScript for player functionality  
@@ -28,41 +35,53 @@ Music-Player/
 │   ├── Album2/  
 │── README.md          # Project documentation  
 │── LICENSE            # Apache 2.0 License file  
+```
 
-📜 How to Use
+---
 
-    Clone the repository:
+## 🌟 How to Use  
 
-    git clone https://github.com/ibadullahkingkhan/Music-Player.git
+1. **Clone the repository:**  
+   ```bash
+   git clone https://github.com/ibadullahkingkhan/Music-Player.git
+   ```  
+2. **Open `index.html` in a browser.**  
+3. Enjoy your music! 🎶  
 
-    Open index.html in a browser.
-    Enjoy your music! 🎶
+---
 
-🔧 Understanding info.json Structure
+## 🔧 Understanding `info.json` Structure  
 
-Each album or playlist folder contains an info.json file, which provides details about the playlist.
-Example info.json File:
+Each album or playlist folder contains an `info.json` file, which provides details about the playlist.  
 
+### **Example `info.json` File:**  
+```json
 {
     "title": "Playlist Name",
     "description": "Short description"
 }
+```
+- **`"title"`** → The playlist or album name displayed in the player.  
+- **`"description"`** → A short description of the playlist.  
 
-    "title" → The playlist or album name displayed in the player.
-    "description" → A short description of the playlist.
+Additionally, every album folder should contain an **`image.jpg`** file.  
+- This serves as the **album cover** for the playlist.  
+- You can **upload any image**, but it **must be named `image.jpg`** for the player to display it correctly.  
 
-Additionally, every album folder should contain an image.jpg file.
+---
 
-    This serves as the album cover for the playlist.
-    You can upload any image, but it must be named image.jpg for the player to display it correctly.
+## 🔧 Customization  
 
-🔧 Customization
+- 🎼 Add new **albums and songs** inside the `songs/` folder.  
+- ✏️ Update `info.json` in each album folder to **modify album details**.  
+- 🎨 Replace `image.jpg` with any album cover image **(keep the same name)**.  
+- 🎭 Customize the UI in `style.css`.  
 
-    Add new albums and songs inside the songs/ folder.
-    Update info.json in each album folder to modify album details.
-    Replace image.jpg with any album cover image (keep the same name).
-    Customize the UI in style.css.
+---
 
-📜 License
+## 🌟 License  
 
-This project is licensed under the Apache License 2.0 – You are free to use, modify, and distribute it with proper attribution. See the LICENSE file for more details.
+This project is licensed under the **Apache License 2.0** – You are free to use, modify, and distribute it with proper attribution. See the `LICENSE` file for more details.  
+
+---
+
