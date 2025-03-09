@@ -83,6 +83,11 @@ Additionally, every album folder should contain an **`image.jpg`** file.
 
 ---
 
+## 🚀 Demo Video  
+🎬 Watch the demo: 👉 [YouTube Shorts video](https://youtube.com/shorts/M0S0d6bmdhA?si=2m744W1Rd72M1rk3)  
+
+---
+
 ## 🌟 License  
 
 This project is licensed under the **Apache License 2.0** – You are free to use, modify, and distribute it with proper attribution. See the `LICENSE` file for more details.  
